@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -31,6 +31,17 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              {
+                "group": "Form",
+                "pages": [
+                  "components/form/checkbox"
+                ]
+              }
+            ]
           }
         ]
       },
@@ -54,26 +65,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ] 
   },
   "logo": {
     "light": "/logo/light.svg",
